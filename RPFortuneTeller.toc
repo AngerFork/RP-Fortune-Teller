@@ -1,0 +1,10 @@
+## Interface: 120100
+## Title: RP Fortunes
+## Author: AngerFork
+## Notes: Allows you to tell randomized fortunes to anyone you want. Made in memory of Reputation/Potions, who initially had the idea for this addon.
+## Version: 0.25
+## DefaultState: Enabled
+## SavedVariables: RPFortuneSettings
+
+fortunefunctions.lua
+fortunelists.lua
