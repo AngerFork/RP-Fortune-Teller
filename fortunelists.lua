@@ -1,6 +1,10 @@
-local addon = ...
+local addon, ns = ...
 
-PeeringWithTarget = {
+-- Prophecy lists
+--   Peering*  = textPropEmote  (the "looking into the future" emote)
+--   Fortunes* = textPropOutput (the revealed prophecy)
+
+ns.PeeringWithTarget = {
 	"peers deep into %t's eyes.",
 	"concentrates on %t and how they fit in the timestream.",
 	"grunts at %t while staring into nothingness.",
@@ -12,7 +16,7 @@ PeeringWithTarget = {
 	"gazes into a handheld mirror and repeats %t's name three times."
 };
 
-PeeringWithoutTarget = {
+ns.PeeringWithoutTarget = {
 	"takes out several unlabeled Potions and mixes them together.",
 	"takes a bite out of some bread that looks kind of moldy. Ugh!",
 	"peers far into the future.",
@@ -28,7 +32,7 @@ PeeringWithoutTarget = {
 	"hears a whisper in the wind."
 };
 
-FortunesWithTarget = {
+ns.FortunesWithTarget = {
 	"sees %t dancing at a party hosted by Mariah Carey.",
 	"reminds %t of the importance of having a good Reputation.",
 	"warns %t not to go to that party tonight, but does not specify why.",
@@ -49,7 +53,7 @@ FortunesWithTarget = {
 	"foresees a race change in %t's near future."
 };
 
-FortunesWithoutTarget = {
+ns.FortunesWithoutTarget = {
 	"sees a dance party hosted by Mariah Carey.",
 	"has been told by the spirits to ask again later.",
 	"warns of the dangers of too much RNG.",
